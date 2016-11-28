@@ -1,17 +1,22 @@
 var blocChat = angular.module("blocChat", [])
-.controller('blocChat', [$scope, 'ui.router', 'firebase'])
+.controller('blocChat', [$scope, 'ui.router', 'firebase', function(firebase) {
+    
+}])
 
 
 
 -------------------------
 
 (function() {
-    function blocChat() {
-        
+    function Room(firebase) {
+        var allRooms = function() { /* does something */ };
+        return {
+            all: allRooms
+        }
     }
     
     angular.module('blocChat')
-    .controller('blocChat', [$scope/blocChat, 'ui.router', 'firebase'])
+    .controller('blocChat', ['ui.router', 'firebase', blocChat])
 })();
 
 ----------------------------
