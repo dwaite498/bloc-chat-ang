@@ -1,11 +1,4 @@
-var blocChat = angular.module("blocChat", [])
-.controller('blocChat', [$scope, 'ui.router', 'firebase', function(firebase) {
-    
-}])
 
-
-
--------------------------
 
 (function() {
     function Room(firebase) {
@@ -19,4 +12,3 @@ var blocChat = angular.module("blocChat", [])
     .controller('blocChat', ['ui.router', 'firebase', blocChat])
 })();
 
-----------------------------

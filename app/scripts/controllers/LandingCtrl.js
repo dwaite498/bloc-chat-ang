@@ -1,6 +1,7 @@
 (function() {
     function LandingCtrl() {
-        //Landing page code goes here?
+        
+        return
     }
     
     angular.module('blocChat')
