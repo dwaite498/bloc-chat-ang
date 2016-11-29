@@ -1,9 +1,0 @@
-.navbar {
-    display: table;
-    position: absolute;
-    top: 0;
-    right: 0;
-    height: 100px;
-    text-decoration: line-through;
-    border: 3px, solid, black;
-}
