@@ -1,0 +1,9 @@
+.navbar {
+    display: table;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100px;
+    color: white;
+    text-decoration: none;
+}
