@@ -4,5 +4,6 @@
     top: 0;
     right: 0;
     height: 100px;
-    text-decoration: none;
+    text-decoration: line-through;
+    border: 3px, solid, black;
 }

@@ -3,10 +3,11 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>Bloc Base Project</title>
-    <link rel="stylesheet" href="/styles/main.css">
-    <link rel="stylesheet" href="/styles/topBar.css">
+    <link rel="stylesheet" type="text/css" href="/app/styles/main.css">
+    <link rel="stylesheet" type="text/css" href="/app/styles/navBar.css">
+    <link rel="stylesheet" type="text/css" href="/app/styles/landing.css">
 </head>
-<body >
+<body>
     <nav class="navbar">
         top bar goes here MUAHAHAHAHAA
     </nav>
@@ -16,7 +17,7 @@
     
     <ui-view>  </ui-view>
     
-    <script src="/scripts/app.js"></script>
+    
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
     <script src="https://www.gstatic.com/firebasejs/3.3.0/firebase.js"></script>
     <script src="https://cdn.firebase.com/libs/angularfire/2.0.1/angularfire.min.js"></script>
@@ -30,7 +31,8 @@
         firebase.initializeApp(config);
         
     </script>
-    <script>src="/scripts/controllers/LandingCtrl.js"</script>
+    <!--<script src="/scripts/app.js"></script>-->
+    <!--<script src="/scripts/controllers/LandingCtrl.js"></script>-->
 </body>
 </html>
 

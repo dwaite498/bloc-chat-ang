@@ -1,4 +1,6 @@
-
+html {
+    background-color: black;
+}
 
 @media (min-width: 640px) {
     html { font-size: 112%; }
